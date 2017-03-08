@@ -90,3 +90,25 @@ a{
     height:200px;
     width:300px;
 }
+.skill{
+    font-size:14px;
+    display:inline-block;
+}
+.skill::before{
+    content: "#";
+}
+#lightbox{
+    display:none;
+    position: fixed;
+    height:100vh;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:9999;
+    background: rgba(0,0,0,.5);
+}
+#lightbox_img{
+    display:block;
+    width:70%;
+    margin:auto;
+}

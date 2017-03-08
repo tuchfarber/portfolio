@@ -6,8 +6,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|VT323" rel="stylesheet">
         <link href="portfolio.css" rel="stylesheet">
+        <script src="portfolio.js"></script>
     </head>
     <body>
+        <div onclick="lightbox(this, false)" id="lightbox">
+            <img id="lightbox_img">
+        </div>
         <div class="container">
             <div class="content">
                 <div class="full top">
@@ -46,39 +50,57 @@
                     <h3>Catan Board Finder</h3>
                     <div class="subtext">
                         <div class="desc">Helps find Catan boards</div>
-                        <img class="screenshot" src="assets/catan_board_finder.png">
+                        <img class="screenshot" onclick="lightbox(this, true)" src="assets/catan_board_finder.png">
                         <a target="_blank" href="https://projects.tuchfarber.com/catan-board-finder">
                             <button class="link">Demo</button>
                         </a>
                         <a target="_blank" href="https://github.com/tuchfarber/catan-board-finder">
                             <button class="link">Github</button>
                         </a>
+                        <br>
+                        <div class="skill">vue.js</div>
+                        <div class="skill">html5</div>
+                        <div class="skill">css3</div>
+                        <div class="skill">js</div>
                     </div>
                 </div>
                 <div class="half project">
                     <h3>Veto It</h3>
                     <div class="subtext">
                         <div class="desc">Narrow local restaurants by veto</div>
-                        <img class="screenshot" src="assets/veto_it.png">
+                        <img class="screenshot" onclick="lightbox(this, true)" src="assets/veto_it.png">
                         <a target="_blank" href="https://projects.tuchfarber.com/Veto-It">
                             <button class="link">Demo</button>
                         </a>
                         <a target="_blank" href="https://github.com/tuchfarber/Veto-It">
                             <button class="link">Github</button>
                         </a>
+                        <br>
+                        <div class="skill">vue.js</div>
+                        <div class="skill">googlemaps</div>
+                        <div class="skill">html5</div>
+                        <div class="skill">css3</div>
+                        <div class="skill">js</div>
                     </div>
                 </div>
                 <div class="half project">
                     <h3>On This Lay</h3>
                     <div class="subtext">
                         <div class="desc">Finds events that happened during your conception</div>
-                        <img class="screenshot" src="assets/on_this_lay.png">
+                        <img class="screenshot" onclick="lightbox(this, true)" src="assets/on_this_lay.png">
                         <a target="_blank" href="https://projects.tuchfarber.com/onthislay">
                             <button class="link">Demo</button>
                         </a>
                         <a target="_blank" href="https://github.com/tuchfarber/on-this-lay">
                             <button class="link">Github</button>
                         </a>
+                        <br>
+                        <div class="skill">python</div>
+                        <div class="skill">redis</div>
+                        <div class="skill">bottle</div>
+                        <div class="skill">html5</div>
+                        <div class="skill">css3</div>
+                        <div class="skill">js</div>
                     </div>
                 </div>
             </div>
