@@ -4,24 +4,6 @@ html,body{
     margin:0px;
     font-family: 'Cutive Mono', monospace;
 }
-/*
-.webapp{
-    width:360px;
-    height:729px;
-    background: url(cellphone.png) no-repeat center;
-    background-size:contain;
-    position:relative;
-    display:inline-block;
-}
-.webapp>iframe{
-    width:320px;
-    height:582px;
-    position:absolute;
-    top:69px;
-    left:20px;
-    border:none;
-}
-*/
 .container{
     max-width:720px;
     margin:auto;
