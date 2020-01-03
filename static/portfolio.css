@@ -1,99 +1,59 @@
-html,body{
-    background-color:#eee;
-    padding:0px;
-    margin:0px;
-    font-family: 'Cutive Mono', monospace;
+html,
+body {
+  background-color: #eee;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Cutive Mono", monospace;
 }
-.container{
-    max-width:720px;
-    margin:auto;
+.container {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 0 0 20px;
 }
-.prof_pic{
-    height:150px;
-    width:150px;
-    margin-right:20px;
-    border-radius: 75px;
+.container h3 {
+  font-size: 24px;
 }
-.full{
-    width:100%;
-    margin-top:20px;
+.heading {
+  display: flex;
+  justify-content: left;
+  font-size: 18px;
 }
-.half{
-    width:340px;
-    margin-top:20px;
+.heading .profile-pic {
+  height: 150px;
+  width: 150px;
+  margin-right: 20px;
+  border-radius: 75px;
 }
-.top{
-    display:flex;
-    align-items: center;
-    flex-wrap: wrap;
+.heading .profile-info {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
-.name{
-    font-size:22px;
+.heading .name {
+  font-size: 22px;
 }
-.title{
-    margin-top:10px;
-    font-size:18px;
+.heading .link-icon {
+  height: 32px;
+  width: 32px;
 }
-.subtext{
-    max-width:320px;
+.heading .title {
+  margin-top: 10px;
+  font-size: 18px;
 }
-.content{
-    margin-top:50px;
-    margin-bottom:50px;
-    display:flex;
-    flex-wrap: wrap;
-    color:#444;
-    font-size:20px;
-    margin-left:20px;
+.container .split {
+  display: flex;
+  flex-direction: column;
 }
-.link{
-    background-color:#f4f4f4;
-    border:1px solid #444;
-    border-radius:5px;
-    height:30px;
-    width:100px;
+@media (min-width: 640px) {
+  .container .split {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
-.link:hover{
-    background-color:#666;
-    color:#fff;
-    cursor:pointer;
+
+.project {
+  margin: 20px 0;
 }
-a{
-    text-decoration: none;
-}
-.desc{
-    height:48px;
-}
-.section{
-    margin-bottom:-20px;
-}
-.screenshot{
-    height:200px;
-    width:300px;
-}
-.skill{
-    font-size:14px;
-    display:inline-block;
-}
-.skill::before{
-    content: "#";
-}
-#lightbox{
-    display:none;
-    position: fixed;
-    height:100vh;
-    width:100%;
-    top:0;
-    left:0;
-    z-index:9999;
-    background: rgba(0,0,0,.5);
-}
-#lightbox_img{
-    display:block;
-    width:70%;
-    margin:auto;
-}
-.link_icon{
-    height:32px;
-    width:32px;
+.project .project-title {
+  font-weight: bold;
 }

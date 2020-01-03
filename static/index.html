@@ -5,140 +5,34 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|VT323" rel="stylesheet">
-        <link href="portfolio.css" rel="stylesheet">
-        <title>Matt Tuchfarber - Portfolio</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <script src="portfolio.js"></script>
-        <!-- Piwik -->
-        <script type="text/javascript">
-        var _paq = _paq || [];
-        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function() {
-            var u="https://analytics.tuchfarber.com/";
-            _paq.push(['setTrackerUrl', u+'piwik.php']);
-            _paq.push(['setSiteId', '1']);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-        })();
-        </script>
-        <!-- End Piwik Code -->
+        <title>Matt Tuchfarber - Portfolio</title>
+        <link href="portfolio.css" rel="stylesheet">
     </head>
     <body>
-        <div onclick="lightbox(this, false)" id="lightbox">
-            <img id="lightbox_img">
-        </div>
         <div class="container">
-            <div class="content">
-                <div class="full top">
-                    <img class="prof_pic" src="assets/profile.jpg">
-                    <div class="basic">
-                        <h2 class="name">Matt<br><span title="&quot;Two-Far-Brr&quot;">Tuchfarber</span></h2>
-                        <div class="title">Full Stack Developer</div>
-                        <div class="title">
-                            <a href="assets/resume.pdf"><img class="link_icon" src="assets/icons/resume.png" alt="Resume" title="Resume"></a>
-                            <a href="mailto:matt@tuchfarber.com?Subject=Portfolio"><img class="link_icon" src="assets/icons/envelope.png" alt="Email" title="Email"></a>
-                            <a href="http://github.com/tuchfarber"><img class="link_icon" src="assets/icons/github.svg" alt="GitHub" title="GitHub"></a>
-                            <a href="https://www.linkedin.com/in/matt-tuchfarber-007a4887"><img class="link_icon" src="assets/icons/linkedin.svg" alt="LinkedIn" title="LinkedIn"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="half">
-                    <h2>Work Experience</h2>
-                    <div class="subtext">
-                        Senior Software Engineer<br>
-                        <i>edX</i><br>
-                        Jul 2019 - Present
-                    </div>
-                    <br>
-                    <div class="subtext">
-                        Software Engineer<br>
-                        <i>edX</i><br>
-                        Jun 2017 - Jul 2019
-                    </div>
-                    <br>
-                    <div class="subtext">
-                        Web Applications Developer<br>
-                        <i>General Cable Corp.</i><br>
-                        Jan 2016 - Jun 2017
-                    </div>
-                    <br>
-                    <div class="subtext">
-                        Level II Support Tech<br>
-                        <i>General Cable Corp.</i><br>
-                        Nov 2014 - Jan 2016
-                    </div>
-                </div>
-                <div class="half">
-                    <h2>Education</h2>
-                    <div class="subtext">
-                        B.S. Computer Science<br>
-                        <i>University of Cincinnati</i><br>
-                        Graduation: Apr 2017
-                    </div>
-                </div>
-                <div class="full section">
-                    <h2>Projects</h2>
-                </div>
-                <div class="half project">
-                    <h3>Veto It</h3>
-                    <div class="subtext">
-                        <div class="desc">Groups can choose a local restaurant by sharing page</div>
-                        <img class="screenshot" onclick="lightbox(this, true)" src="assets/veto_it.png">
-                        <a target="_blank" href="https://www.tuchfarber.com/projects/Veto-It/">
-                            <button class="link">Demo</button>
-                        </a>
-                        <a target="_blank" href="https://github.com/tuchfarber/Veto-It">
-                            <button class="link">Github</button>
-                        </a>
-                        <br>
-                        <div class="skill">vue.js</div>
-                        <div class="skill">googlemaps</div>
-                        <div class="skill">html5</div>
-                        <div class="skill">css3</div>
-                        <div class="skill">js</div>
-                    </div>
-                </div>
-                <div class="half project">
-                    <h3>Catan Board Finder</h3>
-                    <div class="subtext">
-                        <div class="desc">Helps find Catan boards</div>
-                        <img class="screenshot" onclick="lightbox(this, true)" src="assets/catan_board_finder.png">
-                        <a target="_blank" href="https://www.tuchfarber.com/projects/catan-board-finder">
-                            <button class="link">Demo</button>
-                        </a>
-                        <a target="_blank" href="https://github.com/tuchfarber/catan-board-finder">
-                            <button class="link">Github</button>
-                        </a>
-                        <br>
-                        <div class="skill">vue.js</div>
-                        <div class="skill">html5</div>
-                        <div class="skill">css3</div>
-                        <div class="skill">js</div>
-                    </div>
-                </div>
-                <div class="half project">
-                    <h3>On This Lay</h3>
-                    <div class="subtext">
-                        <div class="desc">Finds events that happened during your conception</div>
-                        <img class="screenshot" onclick="lightbox(this, true)" src="assets/on_this_lay.png">
-                        <a target="_blank" href="https://www.tuchfarber.com/projects/onthislay">
-                            <button class="link">Demo</button>
-                        </a>
-                        <a target="_blank" href="https://github.com/tuchfarber/on-this-lay">
-                            <button class="link">Github</button>
-                        </a>
-                        <br>
-                        <div class="skill">python</div>
-                        <div class="skill">redis</div>
-                        <div class="skill">bottle</div>
-                        <div class="skill">html5</div>
-                        <div class="skill">css3</div>
-                        <div class="skill">js</div>
+            <div class="heading">
+                <img class="profile-pic" src="assets/profile.jpg">
+                <div class="profile-info">
+                    <div class="name">Matt<br><span title="&quot;Two-Far-Brr&quot;">Tuchfarber</span></div>
+                    <label>Full Stack Developer</label>
+                    <div>
+                        <a href="assets/resume.pdf"><img class="link-icon" src="assets/icons/resume.png" alt="Resume" title="Resume"></a>
+                        <a href="mailto:matt@tuchfarber.com?Subject=Portfolio"><img class="link-icon" src="assets/icons/envelope.png" alt="Email" title="Email"></a>
+                        <a href="http://github.com/tuchfarber"><img class="link-icon" src="assets/icons/github.svg" alt="GitHub" title="GitHub"></a>
+                        <a href="http://gitlab.com/tuchfarber"><img class="link-icon" src="assets/icons/gitlab.svg" alt="GitLub" title="GitLub"></a>
+                        <a href="https://www.linkedin.com/in/matt-tuchfarber-007a4887"><img class="link-icon" src="assets/icons/linkedin.svg" alt="LinkedIn" title="LinkedIn"></a>
                     </div>
                 </div>
             </div>
+            <div class="split">
+                <div id="experience"></div>
+                <div id="education"></div>
+            </div>
+            <div id="projects">
+                <h3>Personal Projects</h3>
+            </div>
         </div>
     </body>
+    <script src="portfolio.js"></script>
 </html>
